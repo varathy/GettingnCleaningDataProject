@@ -88,7 +88,7 @@ The following files are available for the train and test data. Their description
 
 Transformation details
 
-How run_analysis.R implements the above steps:
+How run_analysis.R implements:
 
 Require reshapre2 and data.table librareis.
 Load both test and train data
