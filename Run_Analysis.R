@@ -72,6 +72,6 @@ if (!("reshape2" %in% rownames(installed.packages())) ) {
         mean_data <- dcast(data_melt,activity_id + activity_name + subject_id ~ variable,mean)
        
         ## Create a file with the new tidy dataset
-        write.table(mean_data,"./tidy_movement_data.txt")
+        write.table(mean_data,"./tidy_data.txt")
 
 }
